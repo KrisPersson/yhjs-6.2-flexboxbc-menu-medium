@@ -4,8 +4,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
+    padding: 0 5px;
     margin-top: 20px;
-    width: 50%;
+    min-width: 70%;
     background: linear-gradient(90deg, rgb(238, 238, 238), rgb(224, 224, 224)); 
     height: 40px;
     display: flex;
@@ -13,11 +14,13 @@ header {
     
 }
 nav {
-    width: 40%;
+    min-width: 40%;
     display: flex;
 }
 a {
+    margin-left: 4px;
     width: 25%;
+    min-width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +28,5 @@ a {
     color: rgb(0 0 0 / .35);
     font-weight: 700;
     text-decoration: none;
+    flex-flow: row nowrap;
 }
