@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    margin-top: 20px;
+    width: 50%;
+    background: linear-gradient(90deg, rgb(238, 238, 238), rgb(224, 224, 224)); 
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav {
+    width: 40%;
+    display: flex;
+}
+a {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    color: rgb(0 0 0 / .35);
+    font-weight: 700;
+    text-decoration: none;
+}
